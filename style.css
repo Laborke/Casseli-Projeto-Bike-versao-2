@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: palegreen;
+}
+
+header {
+    background-color: forestgreen;
+    height: 80px;
+    padding: 0;
+}
+
+.cabecalho-lista {
+    text-align: right;
+    padding: 30px;
+}
+
+.cabecalho-ancora {
+    text-decoration: none;
+}
+
+.cabecalho-lista_item {
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+    position: absolute;
+    margin: 5px;
+    min-width: 80px;
+}
+
+main {
+    background-color: palegreen;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    height: 420px;
+
+}
+
+.principal-divisao {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.principal-parque {
+    width: 42%;
+    position:absolute;
+}
+
+.principal-paragrafo {
+    width: 45%;
+    margin-left: 50%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: forestgreen;
+    padding: 5px;
+}
